@@ -14,6 +14,7 @@ const HeartFavorite = ({ product, updateSignedInUser }: HeartFavoriteProps) => {
   const router = useRouter();
   const { user } = useUser();
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
 
